@@ -41,7 +41,6 @@ setup(name='sennet-sdk',
         'validators==0.18.2',
         'xlsxwriter==3.0.3',
         'zipp==3.6.0',
-        'setuptools==59.6.0',
-        'json'
+        'setuptools==59.6.0'
       ],
       zip_safe=False)
