@@ -1,0 +1,7 @@
+-
+  name: version
+  description: Version of the schema to use when validating this metadata.
+  constraints:
+    enum:
+      - '1'
+# include: all_assays_wo_version.yaml

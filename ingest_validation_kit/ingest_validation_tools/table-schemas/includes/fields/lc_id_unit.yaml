@@ -1,0 +1,8 @@
+- name: lc_id_unit
+  description: units of LC column inner diameter (typically microns)
+  constraints:
+    enum:
+      - um
+      - mm
+      - cm
+    required: False
