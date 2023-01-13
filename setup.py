@@ -10,7 +10,7 @@ setup(name='sennet-sdk',
       url='https://github.com/sennetconsortium/sennet-sdk',
       author='DBMI Pitt',
       license='MIT',
-      packages=['ingest_validation_kit'],
+      packages=['ingest_validation_kit', 'ingest_validation_kit.ingest_validation_tools'],
       install_requires=[
         'attrs==21.4.0',
         'certifi==2021.10.8',
