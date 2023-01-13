@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 import subprocess
 
-from ingest_validation_tools.validation_utils import (
+from .validation_utils import (
     get_tsv_errors,
     get_data_dir_errors,
     dict_reader_wrapper,
@@ -14,12 +14,12 @@ from ingest_validation_tools.validation_utils import (
     get_directory_schema_versions
 )
 
-from ingest_validation_tools.plugin_validator import (
+from .plugin_validator import (
     run_plugin_validators_iter,
     ValidatorError as PluginValidatorError
 )
 
-from ingest_validation_tools.schema_loader import (
+from .schema_loader import (
     PreflightError
 )
 

@@ -3,7 +3,7 @@ import sys
 from yaml import dump as dump_yaml
 import argparse
 
-from ingest_validation_tools.schema_loader import (
+from .ingest_validation_tools.schema_loader import (
     list_table_schema_versions, get_table_schema, get_other_schema, get_is_assay
 )
 

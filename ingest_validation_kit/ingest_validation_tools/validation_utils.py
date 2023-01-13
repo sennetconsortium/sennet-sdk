@@ -3,14 +3,14 @@ from csv import DictReader
 from pathlib import Path
 from typing import List, Optional
 
-from ingest_validation_tools.schema_loader import (
+from .schema_loader import (
     SchemaVersion, get_table_schema, get_other_schema,
     get_directory_schema)
-from ingest_validation_tools.directory_validator import (
+from .directory_validator import (
     validate_directory, DirectoryValidationErrors)
-from ingest_validation_tools.table_validator import (
+from .table_validator import (
     get_table_errors)
-from ingest_validation_tools.schema_loader import (
+from .schema_loader import (
     get_table_schema_version_from_row, PreflightError
 )
 

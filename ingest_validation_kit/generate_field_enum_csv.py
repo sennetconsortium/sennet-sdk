@@ -4,7 +4,7 @@ from csv import DictWriter
 import argparse
 from pathlib import Path
 
-from ingest_validation_tools.schema_loader import (
+from .ingest_validation_tools.schema_loader import (
     list_table_schema_versions, get_table_schema, get_other_schema
 )
 

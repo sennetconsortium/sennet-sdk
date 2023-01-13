@@ -43,4 +43,6 @@ setup(name='sennet-sdk',
         'zipp==3.6.0',
         'setuptools==59.6.0'
       ],
-      zip_safe=False)
+      include_package_data=True,
+      package_data={'': ['examples/*', 'ingest_validation_tools/directory-schemas/*', 'ingest_validation_tools/table-schemas/*', 'ingest_validation_tools/error-reports/*', 'ingest_validation_tools/pipeline-infos/*']},
+      )

@@ -4,8 +4,8 @@ from copy import deepcopy
 import re
 from typing import List, Dict, Any, Set, Sequence, Optional
 
-from ingest_validation_tools.yaml_include_loader import load_yaml
-from ingest_validation_tools.enums import shared_enums
+from .yaml_include_loader import load_yaml
+from .enums import shared_enums
 
 
 _table_schemas_path = Path(__file__).parent / 'table-schemas'

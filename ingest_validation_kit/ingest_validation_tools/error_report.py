@@ -1,7 +1,7 @@
 from yaml import Dumper, dump
 from typing import List
 
-from ingest_validation_tools.message_munger import munge
+from .message_munger import munge
 
 
 # Force dump not to use alias syntax.

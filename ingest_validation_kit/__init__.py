@@ -1,1 +1,1 @@
-from ingest_validation_kit.validate_upload import ValidateUpload
+from .validate_upload import ValidateUpload

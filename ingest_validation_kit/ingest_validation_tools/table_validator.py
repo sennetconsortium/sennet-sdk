@@ -5,7 +5,7 @@ from typing import List, Optional, Dict
 import frictionless
 
 
-from ingest_validation_tools.check_factory import make_checks
+from .check_factory import make_checks
 
 
 def get_table_errors(tsv: str, schema: dict) -> List[str]:

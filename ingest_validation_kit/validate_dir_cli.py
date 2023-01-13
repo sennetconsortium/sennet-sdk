@@ -6,10 +6,10 @@ from pathlib import Path
 import inspect
 from datetime import datetime
 
-from ingest_validation_tools.error_report import ErrorReport
-from ingest_validation_tools.upload import Upload
-from ingest_validation_tools.cli_utils import ShowUsageException, exit_codes, dir_path
-from ingest_validation_tools.check_factory import cache_path
+from .ingest_validation_tools.error_report import ErrorReport
+from .ingest_validation_tools.upload import Upload
+from .ingest_validation_tools.cli_utils import ShowUsageException, exit_codes, dir_path
+from .ingest_validation_tools.check_factory import cache_path
 
 directory_schemas = sorted({
     p.stem for p in

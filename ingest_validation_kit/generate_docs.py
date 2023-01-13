@@ -7,15 +7,15 @@ from yaml import dump as dump_yaml
 
 from tableschema_to_template.create_xlsx import create_xlsx
 
-from ingest_validation_tools.schema_loader import (
+from .ingest_validation_tools.schema_loader import (
     dict_table_schema_versions, get_table_schema, get_other_schema,
     dict_directory_schema_versions, get_directory_schema,
     get_is_assay, enum_maps_to_lists,
     get_pipeline_infos, get_fields_wo_headers)
-from ingest_validation_tools.docs_utils import (
+from .ingest_validation_tools.docs_utils import (
     get_tsv_name, get_xlsx_name,
     generate_template_tsv, generate_readme_md)
-from ingest_validation_tools.cli_utils import dir_path
+from .ingest_validation_tools.cli_utils import dir_path
 
 
 def main():
